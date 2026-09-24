@@ -21,7 +21,7 @@ type PaymentMethod = "card" | "cash";
 const fieldClassName =
   "w-full rounded-[4px] border border-[#ebe6de] bg-white px-4 text-[14px] leading-[normal] text-[#1a1a1a] outline-none focus:border-[#1a1a1a]";
 
-const WHATSAPP_ORDER_URL = "https://wa.me/DIGITERA-WHATSAPP-NUMBER";
+const WHATSAPP_ORDER_URL = "https://wa.me/201142011650";
 
 function buildOrderMessage(input: {
   recipientName: string;
@@ -317,9 +317,7 @@ function PaymentOption({
     <label
       className={cn(
         "flex items-center gap-3 rounded-[4px] bg-white p-4",
-        selected
-          ? "border-2 border-[#1a1a1a]"
-          : "border border-[#ebe6de]",
+        selected ? "border-2 border-[#1a1a1a]" : "border border-[#ebe6de]",
       )}
     >
       <input
@@ -331,9 +329,7 @@ function PaymentOption({
       />
       <img
         src={
-          selected
-            ? "/icons/radio-selected.svg"
-            : "/icons/radio-unselected.svg"
+          selected ? "/icons/radio-selected.svg" : "/icons/radio-unselected.svg"
         }
         alt=""
         width={18}

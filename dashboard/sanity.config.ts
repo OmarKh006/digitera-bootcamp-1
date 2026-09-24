@@ -8,7 +8,7 @@ export default defineConfig({
   name: 'default',
   title: 'digitera-bootcamp-1',
 
-  projectId: 'DIGITERA-PROJECT-ID',
+  projectId: 'qtnim5xc',
   dataset: 'production',
 
   plugins: [structureTool({structure}), visionTool()],
